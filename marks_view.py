@@ -23,7 +23,7 @@ biology = st.number_input("Enter your biology number", 0, 100, step=1)
 # st.checkbox("Chose from this following options: "['Horizontal Bar','Vartical Bar','graphs'])
 graph = st.radio("Select of the representations : ",['graphically','barview','sideplot'])
 making_graph = st.button(f"Know your possible trade")
-st.badge(f"{graph}ical representation")
+#st.badge(f"{graph}ical representation")
 
 if making_graph:
 
